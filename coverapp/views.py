@@ -11,3 +11,6 @@ class SalleAmangerView(TemplateView):
 
 class BanhoView(TemplateView):
     template_name='home/banho.html'
+
+class LoginView(TemplateView):
+    template_name = "home/login.html"
